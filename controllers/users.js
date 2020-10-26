@@ -8,16 +8,18 @@ const users = require("..data/index");
 // After that is complete we will import these controller functions into the routes.
 
 // listUsers should retrieve the entire array from data/index
-const listUsers = 
+const listUsers = (req, res) => {};
 
 // showUser should retrieve just the user that matches the passed-in id
-const showUser =
+const showUser = (req, res) => {};
 
-
-// createUser should add a user to the array 
+// createUser should add a user to the array
+const createUser = (req, res) => {};
 
 // updateUser should update a user from the array based on its id
+const updateUser = (req, res) => {};
 
 // deleteUser should delete a user from the array based on its id
+const deleteUser = (req, res) => {};
 
 module.exports("controllers");
