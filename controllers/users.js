@@ -1,5 +1,5 @@
 // We need to retrieve the users by accessing the index file in the data folder
-const users = require("..data/index");
+const users = require("../data/index");
 
 // We will create five controller functions. These will correspond to the routes.
 // ALL LOGIC for retrieving or updating the "data" should be done here.

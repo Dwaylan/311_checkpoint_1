@@ -1,5 +1,6 @@
 const express = require("express");
 const router = express.Router();
+const usersController = require("../controllers/users");
 
 // "Routes" to forward the supported HTTP requests to the appropriate controller functions.
 
