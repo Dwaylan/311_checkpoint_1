@@ -18,7 +18,7 @@ const listUsers = (req, res) => {
 // showUser should retrieve just the user that matches the passed-in id
 const showUser = (req, res) => {
   let userId = parseInt(req.params.userId);
-  let user = users.find((user) => user._id === userId);
+  let user = users.find((user) => user.id === userId);
   //  If there is no user to be found, throw up erro code 404
   if (!user) {
     res.status(404).send("users not found");
